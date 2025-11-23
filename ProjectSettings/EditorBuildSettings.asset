@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_ManifoldCoupling_TEST/Scenes/Training_Scene.unity
+    path: Assets/___ManifoldCoupling_TEST/Scenes/Training_Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c6b825d15e3b0f748b8e8cb08b24f2b8, type: 2}

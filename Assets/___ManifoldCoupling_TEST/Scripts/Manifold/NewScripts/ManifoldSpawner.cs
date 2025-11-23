@@ -112,6 +112,9 @@ public class ManifoldSpawner : MonoBehaviour
         {
             foreach (var p in _planeManager.trackables)
                 p.gameObject.SetActive(false);
+
+            // stop detecting planes after spawning
+            _planeManager.enabled = false;
         }
 
         // Wire UI bridge (if available)
