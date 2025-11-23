@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b6f074140fe064eaa377629884df44, type: 3}
+  m_Name: TutorialStep_07_UnAlign
+  m_EditorClassIdentifier: 
+  stepTitle: Un-Align the Hose
+  stepDescription: Pull the connector away to disengage from the tank manifold.
+  successLabel: Un-Aligned
+  failureLabel: Aligned
+  requireAlignment: 0
+  requireSnap: 0
+  requireHandleLock: 0
+  requireFlowStart: 0
+  requireHandleUnlock: 0
+  requireUnSnap: 0
+  requireUnAlign: 1
+  showArrows: 0
+  showHandAnimation: 0
+  autoCompleteWhenRequirementMet: 0

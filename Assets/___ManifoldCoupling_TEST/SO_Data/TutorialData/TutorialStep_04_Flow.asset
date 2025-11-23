@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b6f074140fe064eaa377629884df44, type: 3}
+  m_Name: TutorialStep_04_Flow
+  m_EditorClassIdentifier: 
+  stepTitle: Enable Fluid Flow
+  stepDescription: 'Tap the ''Show Flow'' button to activate the internal fluid animation.
+
+    Observe
+    the flow path indicated with red arrows.'
+  successLabel: Flow Active
+  failureLabel: Flow Off
+  requireAlignment: 0
+  requireSnap: 0
+  requireHandleLock: 0
+  requireFlowStart: 1
+  requireDisconnection: 0
+  showArrows: 0
+  showHandAnimation: 0
+  autoCompleteWhenRequirementMet: 0
